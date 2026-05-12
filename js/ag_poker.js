@@ -22,7 +22,7 @@ function playDrawPoker() {
   var handValueText = document.getElementById("handValue");
   var betSelection = document.getElementById("bet");
   var bankBox = document.getElementById("bank");
-  var cardImages = document.querySelectorAll("image.cardImg");
+  var cardImages = document.querySelectorAll("img.cardImg");
 
   // Set the initial values of the pokerGame object
   pokerGame.currentBank = 500;
